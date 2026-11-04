@@ -1,0 +1,6 @@
+{
+  "_note": "USD per 1M tokens. Prices drift: these were checked against ai.google.dev/gemini-api/docs/pricing on 2026-06-26. Re-check before trusting a report; override with GT_RATES=<file>. A model missing here is logged at $0 and flagged in the report, never guessed.",
+  "gemini-2.5-flash": { "in": 0.5, "out": 2.0, "cache": 0.125 },
+  "gemini-3.5-flash": { "in": 1.5, "out": 9.0, "cache": 0.375 },
+  "gemini-embedding-001": { "in": 0.15, "out": 0, "cache": 0 }
+}

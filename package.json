@@ -1,0 +1,24 @@
+{
+  "name": "gemini-toolkit",
+  "version": "0.1.0",
+  "description": "Two small Gemini tools in plain Node: RAG over SQLite with a per-call cost ledger, and menu PDF/photo to reviewed JSON.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.13" },
+  "bin": {
+    "gemini-toolkit": "bin/gemini-toolkit.mjs",
+    "menu-extract": "bin/menu-extract.mjs"
+  },
+  "scripts": {
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.mjs\"",
+    "demo:index": "node bin/gemini-toolkit.mjs index demo/docs",
+    "demo:ask": "node bin/gemini-toolkit.mjs ask \"When can I get a refund?\"",
+    "demo:menu": "node bin/menu-extract.mjs demo/sample-menu.pdf"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "pdfjs-dist": "^4.10.38"
+  }
+}

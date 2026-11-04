@@ -1,0 +1,12 @@
+{
+  "_note": "ILLUSTRATIVE, hand-written from reading demo/sample-menu.pdf. Not captured from a live Gemini run: real output will differ in confidence values and may differ in rows. Replace with a real run (node bin/menu-extract.mjs demo/sample-menu.pdf --out ...) once you have a key.",
+  "mode": "vision",
+  "items": [
+    { "name": "Consomme, with vegetables", "price": "$0.35", "category": "SOUPS", "confidence": 0.95, "needsReview": false },
+    { "name": "Oyster stew", "price": "$0.50", "category": "SOUPS", "confidence": 0.95, "needsReview": false },
+    { "name": "Baked whitefish", "price": "market price", "category": "FISH", "confidence": 0.7, "needsReview": false },
+    { "name": "Prime ribs of beef, au jus", "price": "$0.75-$1.10", "category": "ROASTS", "confidence": 0.9, "needsReview": false },
+    { "name": "Mashed potatoes", "price": "$0.10/dish", "category": "VEGETABLES (per dish)", "confidence": 0.9, "needsReview": false },
+    { "name": "Vanilla ice cream", "price": "", "category": "PASTRY AND DESSERT", "confidence": 0.3, "needsReview": true }
+  ]
+}

@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.gemini-toolkit/
+*.db
+*.db-wal
+*.db-shm
+*.local
